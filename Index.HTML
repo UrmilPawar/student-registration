@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:blue;
+        }
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body style="background-color:red;"><!---Inline CSS styling(Css Injection)(more effective than internal)-->
+    <h2>Student Registration form using table in HTML</h2>
+    <form>
+        <table>
+            <!------------------First Name------------------------>
+            <tr>
+                <td>Your Name</td>
+                <td><input type="text" name="Firstname" maxlength="50" placeholder="Name"></td>
+            </tr>
+            <!------------------Last Name------------------------>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="Lastname" maxlength="50" placeholder="Lastname"></td>
+            </tr>
+            <!------------------Email------------------------>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="Email" maxlength="50" placeholder="Email@gmail.com"></td>
+            </tr>
+             <!------------------Mobile------------------------>
+            <tr>
+                <td>Mobile No</td>
+                <td><input type="number" name="M" maxlength="50" placeholder="91+"></td>
+            </tr>
+            <!------------------Gender------------------------>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio"  name="Male"/>
+                    <label>Male</label>
+                    <input type="radio"  name="Female"/>
+                    <label>Female</label>
+                </td>
+                
+            </tr>
+             <!------------------Date------------------------>
+            <tr>
+                <td>Date</td>
+                <td><input type="date" name="Date" placeholder="10/11/2003"></td>
+            </tr>
+            <!------------------City------------------------>
+            <tr>
+                <td>City</td>
+                <td><input type="text" name="City" maxlength="50" placeholder="Mumbai"></td>
+            </tr>
+            <!------------------Pincode------------------------>
+            <tr>
+                <td>Pincode</td>
+                <td><input type="number" name="Pincode" maxlength="50" placeholder="400XXX"></td>
+            </tr>
+            <!------------------State------------------------>
+            <tr>
+                <td>State</td>
+                <td><input type="text" name="State" maxlength="50" placeholder="Maharashtra"></td>
+            </tr>
+            <!------------------Country------------------------>
+            <tr>
+                <td>Country</td>
+                <td><input type="text" name="Country" maxlength="50" placeholder="India"></td>
+            </tr>
+            <!------------------Hobbies------------------------>
+            <tr>
+                <td>Hobbies</td>
+                <td><input type="checkbox" name="Drawing">
+                    <label for="Drawing">Drawing</label>
+                    <input type="checkbox" name="Singing">
+                    <label for="Singing">Singing</label>
+                    <input type="checkbox" name="Dancing">
+                    <label for="Dancing">Dancing</label>
+                </td>
+                <td><input type="checkbox" name="sketching">
+                    <label for="sketching">Sketching</label>
+                </td>
+                <td><label>Other</label>
+                    <input type="text" name="sketching" maxlength="150">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
